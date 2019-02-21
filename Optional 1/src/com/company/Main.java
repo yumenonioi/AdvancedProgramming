@@ -57,9 +57,15 @@ public class Main {
             for(int i=1;i<=n;i++){
                 for(int j=1;j<=n;j++)
                 {
-                    int element = (int) (Math.random() * 2);
-                    matrix[i][j] = element;
-                    if(element == 1) m++;
+                    if(i!=j) {
+                        if (matrix[i][j] != 1) {
+                            int element = (int) (Math.random() * 2);
+                            matrix[i][j] = element;
+                            matrix[j][i] = element;
+                            if (element == 1) m=m+2;
+                        }
+                    }
+                    else matrix[i][i]=0;
                 }
             }
         }
@@ -72,6 +78,6 @@ public class Main {
             System.out.print("\n");
         }
 
-        System.out.println("Number of edges is:" + m/2);
+        System.out.println("Number of edges is: " + m/2);
     }
 }
