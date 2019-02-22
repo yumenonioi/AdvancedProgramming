@@ -72,11 +72,55 @@ public class Main {
 
         else throw new IllegalArgumentException("The type of graph is not valid.");
 
+        int count=1;
+        System.out.print('\u250F');
+        for(count=1; count<(n*4);count++)
+            if(count%4==0)
+                System.out.print('\u252F');
+            else
+                System.out.print('\u2501');
+        System.out.println('\u2513');
         for(int i=1;i<=n;i++){
-            for(int j=1;j<=n;j++)
-                System.out.print(matrix[i][j] + " ");
+            for(int j=1;j<=n;j++) {
+                if(j==1) {
+                    if(j!=n) {
+                        System.out.print('\u2503');
+                        System.out.print(" " + matrix[i][j] + " ");
+                        System.out.print('\u2502');
+                    }
+                    else {
+                        System.out.print('\u2503');
+                        System.out.print(" " + matrix[i][j] + " ");
+                        System.out.print('\u2503');
+                    }
+                }
+                else if(j==n){
+                    System.out.print(" " + matrix[i][j] + " ");
+                    System.out.print('\u2503');
+                }
+                else {
+                    System.out.print(" " + matrix[i][j] + " ");
+                    System.out.print('\u2502');
+                }
+            }
             System.out.print("\n");
+            if(i!=n) {
+                System.out.print('\u2520');
+                for (count = 1; count < (n * 4); count++)
+                    if (count % 4 == 0)
+                        System.out.print('\u253C');
+                    else
+                        System.out.print('\u2500');
+                System.out.println('\u2528');
+            }
         }
+        System.out.print('\u2517');
+        for(count=1; count<(n*4);count++)
+            if(count%4==0)
+                System.out.print('\u2537');
+            else
+                System.out.print('\u2501');
+        System.out.println('\u251B');
 
         System.out.println("Number of edges is: " + m/2);
     }
