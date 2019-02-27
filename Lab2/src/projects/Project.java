@@ -1,3 +1,5 @@
+package projects;
+
 import java.util.Date;
 
 public abstract class Project {

@@ -1,6 +1,8 @@
+package main;
+
 public class Student {
     private int ID;
-    private int studyYear;
+    private int yearOfStudy;
     private String name;
     private String prenume;
     private String preferences;
@@ -12,8 +14,8 @@ public class Student {
         return ID;
     }
 
-    public int getStudyYear() {
-        return studyYear;
+    public int getYearOfStudy() {
+        return yearOfStudy;
     }
 
     public String getName() {
@@ -43,22 +45,24 @@ public class Student {
         this.prenume = prenume;
     }
 
-    public void setStudyYear(int studyYear) {
-        this.studyYear = studyYear;
+    public void setYearOfStudy(int studyYear) {
+        this.yearOfStudy = studyYear;
     }
 
-    public void setPreferences(String preferences) {
-        this.preferences = preferences;
+    public void setPreferences(String... preferences) {
+        for (String preference : preferences)
+            this.preferences = this.preferences + preference;
+
     }
 
-    public void setPreference(String preferenes) {
-        preference = preferences.split("\\.");
+    public void setPreference(String preferenceses) {
+        preference = preferences.split(", ");
     }
 
     // Methods
 
     @Override
-    public String toString(){
-        return this.ID + "@" + name + "@" + prenume;
+    public String toString() {
+        return this.ID + "@" + name + "@" + prenume + "@" + preferences;
     }
 }
