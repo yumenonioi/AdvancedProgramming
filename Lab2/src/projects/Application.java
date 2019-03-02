@@ -2,16 +2,23 @@ package projects;
 
 import enums.Language;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Application extends Project {
-    Language language;
+    public Language language;
+
+    //constructor
+    public Application(String name, LocalDate deadline, Language language) {
+        this.name = name;
+        this.deadline = deadline;
+        this.language = language;
+    }
 
     // Getters
 
 
     @Override
-    public Date getDeadline() {
+    public LocalDate getDeadline() {
         return super.getDeadline();
     }
 
@@ -26,9 +33,10 @@ public class Application extends Project {
 
 
     // Setters
+    //changee
 
     @Override
-    public void setDeadline(Date deadline) {
+    public void setDeadline(LocalDate deadline) {
         super.setDeadline(deadline);
     }
 
@@ -39,5 +47,12 @@ public class Application extends Project {
 
     public void setLanguage(Language language) {
         this.language = language;
+    }
+
+    //toString
+
+    @Override
+    public String toString() {
+        return name + " " + " " + language + " " + deadline;
     }
 }

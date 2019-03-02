@@ -1,10 +1,10 @@
 package projects;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public abstract class Project {
-    protected String name;
-    protected Date deadline;
+    protected String name = new String();
+    protected LocalDate deadline;
 
     // Getters
 
@@ -12,7 +12,7 @@ public abstract class Project {
         return name;
     }
 
-    public Date getDeadline() {
+    public LocalDate getDeadline() {
         return deadline;
     }
 
@@ -22,10 +22,9 @@ public abstract class Project {
         this.name = name;
     }
 
-    public void setDeadline(Date deadline) {
+    public void setDeadline(LocalDate deadline) {
         this.deadline = deadline;
     }
-
 
 
 }

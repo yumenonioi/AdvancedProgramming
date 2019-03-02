@@ -1,9 +1,9 @@
 package com.company;
 
-import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+
         long[][] matrix = new long[6_000][6_000];
         long m;
         m = 0;
@@ -154,8 +154,7 @@ public class Main {
 
             System.out.println(totalTime);
 
-        }
-        else
+        } else
             System.out.println("Running time: " + totalTime);
     }
 }

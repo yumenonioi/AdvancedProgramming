@@ -1,16 +1,55 @@
 package main;
 
+import projects.Application;
+import projects.Project;
+
+import java.util.List;
+
 public class Student {
-    private int ID;
+    private String ID;
     private int yearOfStudy;
-    private String name;
-    private String prenume;
-    private String preferences;
-    private String[] preference;
+    private String lastName = new String();
+    private String firstName = new String();
+    private String preferences = new String();
+    public String[] preference = new String[100];
 
-    // Getters
+    Student(String ID, int yearOfStudy) {
+        this.ID = ID;
+        this.yearOfStudy = yearOfStudy;
+    }
 
-    public int getID() {
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setYearOfStudy(int studyYear) {
+        this.yearOfStudy = studyYear;
+    }
+
+//    public void setPreferences(Application... applications) {
+//        for (Application application : applications)
+//            this.preferences = this.preferences + application.getName();
+//        setPreference(this.preferences);
+//
+//    }
+
+    public void setPreferences(List<? extends Project> listOfProjects) {
+        for (Project project : listOfProjects)
+            this.preferences = this.preferences + project.getName() + ", ";
+        preferences = preferences.substring(0, preferences.length() - 2); // eliminate the last 2 characters from the preferences (", ")
+        setPreference(this.preferences);
+
+    }
+
+    private void setPreference(String preferences) {
+        preference = preferences.split(", ");
+    }
+
+    public String getID() {
         return ID;
     }
 
@@ -18,51 +57,21 @@ public class Student {
         return yearOfStudy;
     }
 
-    public String getName() {
-        return name;
+    public String getLastName() {
+        return lastName;
     }
 
-    public String getPrenume() {
-        return prenume;
+    public String getFirstName() {
+        return firstName;
     }
 
     public String getPreferences() {
         return preferences;
     }
 
-    // Setters
-
-
-    public void setID(int ID) {
-        this.ID = ID;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setPrenume(String prenume) {
-        this.prenume = prenume;
-    }
-
-    public void setYearOfStudy(int studyYear) {
-        this.yearOfStudy = studyYear;
-    }
-
-    public void setPreferences(String... preferences) {
-        for (String preference : preferences)
-            this.preferences = this.preferences + preference;
-
-    }
-
-    public void setPreference(String preferenceses) {
-        preference = preferences.split(", ");
-    }
-
-    // Methods
 
     @Override
     public String toString() {
-        return this.ID + "@" + name + "@" + prenume + "@" + preferences;
+        return this.ID + "@" + lastName + "@" + firstName + "@" + yearOfStudy + "@" + preferences;
     }
 }
