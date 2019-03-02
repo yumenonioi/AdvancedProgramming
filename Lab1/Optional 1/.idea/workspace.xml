@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5899e58-dcce-4d32-a12d-370dfc81158f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Lab2/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab2/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab2/src/main/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab2/src/main/Problem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab2/src/main/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab2/src/main/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Lab2/src/projects/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab2/src/projects/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab2/src/projects/Essay.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab2/src/projects/Essay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab2/src/projects/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab2/src/projects/Project.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="755">
-              <caret line="159" column="1" selection-start-line="159" selection-start-column="1" selection-end-line="159" selection-end-column="1" />
+            <state relative-caret-position="435">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -55,7 +49,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -78,13 +71,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551300882982" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Lab2" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -134,17 +128,17 @@
       <workItem from="1550834992332" duration="347000" />
       <workItem from="1550835898448" duration="489000" />
       <workItem from="1551283053270" duration="3953000" />
+      <workItem from="1551531608235" duration="1435000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16969000" />
+    <option name="totallyTimeSpent" value="18404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2534685" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2561366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -181,8 +175,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="755">
-          <caret line="159" column="1" selection-start-line="159" selection-start-column="1" selection-end-line="159" selection-end-column="1" />
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>

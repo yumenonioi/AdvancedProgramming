@@ -27,6 +27,7 @@ public class Main {
                 for (int j = 1; j <= n; j++) {
                     if (i == j) matrix[i][j] = 0;
                     else {
+
                         matrix[i][j] = 1;
                         m++;
                     }

@@ -32,9 +32,6 @@ public class Application extends Project {
     }
 
 
-    // Setters
-    //changee
-
     @Override
     public void setDeadline(LocalDate deadline) {
         super.setDeadline(deadline);
