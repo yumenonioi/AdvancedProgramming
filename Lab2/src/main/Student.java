@@ -3,6 +3,7 @@ package main;
 import projects.Application;
 import projects.Project;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Student {
@@ -12,6 +13,7 @@ public class Student {
     private String firstName = new String();
     private String preferences = new String();
     public String[] preference = new String[100];
+    public List<Project> preferenceList = new ArrayList<>();
 
     Student(String ID, int yearOfStudy) {
         this.ID = ID;
@@ -30,16 +32,12 @@ public class Student {
         this.yearOfStudy = studyYear;
     }
 
-//    public void setPreferences(Application... applications) {
-//        for (Application application : applications)
-//            this.preferences = this.preferences + application.getName();
-//        setPreference(this.preferences);
-//
-//    }
 
     public void setPreferences(List<? extends Project> listOfProjects) {
-        for (Project project : listOfProjects)
+        for (Project project : listOfProjects) {
             this.preferences = this.preferences + project.getName() + ", ";
+            setPreferenceList(project);
+        }
         preferences = preferences.substring(0, preferences.length() - 2); // eliminate the last 2 characters from the preferences (", ")
         setPreference(this.preferences);
 
@@ -47,6 +45,10 @@ public class Student {
 
     private void setPreference(String preferences) {
         preference = preferences.split(", ");
+    }
+
+    public void setPreferenceList(Project project) {
+        this.preferenceList.add(project);
     }
 
     public String getID() {
@@ -69,9 +71,12 @@ public class Student {
         return preferences;
     }
 
+    public List<Project> getPreferenceList() {
+        return preferenceList;
+    }
 
     @Override
     public String toString() {
-        return this.ID + "@" + lastName + "@" + firstName + "@" + yearOfStudy + "@" + preferences;
+        return this.ID;
     }
 }

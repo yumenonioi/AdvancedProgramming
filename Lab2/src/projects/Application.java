@@ -50,6 +50,6 @@ public class Application extends Project {
 
     @Override
     public String toString() {
-        return name + " " + " " + language + " " + deadline;
+        return name;
     }
 }

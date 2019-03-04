@@ -1,5 +1,6 @@
 package main;
 
+import Matching.Matching;
 import enums.Language;
 import enums.Topic;
 import projects.Application;
@@ -32,25 +33,35 @@ public class Main {
 
 
         listOfProjects.add(a1);
+        a1.setNumberOfAppearances(a1.getNumberOfAppearances()+1);
         listOfProjects.add(a2);
+        a2.setNumberOfAppearances(a2.getNumberOfAppearances()+1);
         listOfProjects.add(a3);
+        a3.setNumberOfAppearances(a3.getNumberOfAppearances()+1);
         s1.setPreferences(listOfProjects);
 
         listOfProjects.clear();
         listOfProjects.add(a1);
+        a1.setNumberOfAppearances(a1.getNumberOfAppearances()+1);
         listOfProjects.add(e1);
+        e1.setNumberOfAppearances(e1.getNumberOfAppearances()+1);
         s2.setPreferences(listOfProjects);
 
         listOfProjects.clear();
         listOfProjects.add(a2);
+        a2.setNumberOfAppearances(a2.getNumberOfAppearances()+1);
         listOfProjects.add(a3);
+        a3.setNumberOfAppearances(a3.getNumberOfAppearances()+1);
         listOfProjects.add(e1);
+        e1.setNumberOfAppearances(e1.getNumberOfAppearances()+1);
 
         s3.setPreferences(listOfProjects);
 
         listOfProjects.clear();
         listOfProjects.add(a3);
+        a3.setNumberOfAppearances(a3.getNumberOfAppearances()+1);
         listOfProjects.add(e2);
+        e2.setNumberOfAppearances(e2.getNumberOfAppearances()+1);
         s4.setPreferences(listOfProjects);
 
         listOfStudents.add(s1);
@@ -64,5 +75,9 @@ public class Main {
         String preferedProjects = new String();
         preferedProjects = problem.getProjects();
         System.out.println(preferedProjects);
+
+        Matching match = new Matching();
+
+        match.Match(problem);
     }
 }

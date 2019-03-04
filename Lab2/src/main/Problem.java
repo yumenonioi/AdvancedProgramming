@@ -30,7 +30,6 @@ public class Problem {
     }
 
     public String getProjects(){
-        System.out.println(projects);
         return projects;
     }
 

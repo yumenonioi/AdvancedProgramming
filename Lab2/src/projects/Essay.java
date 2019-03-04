@@ -50,6 +50,6 @@ public class Essay extends Project {
 
     @Override
     public String toString() {
-        return name + " " + " " + topic + " " + deadline;
+        return name;
     }
 }
