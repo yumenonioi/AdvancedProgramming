@@ -1,4 +1,4 @@
-package Map;
+package Locations;
 
 public class Edge {
 }
