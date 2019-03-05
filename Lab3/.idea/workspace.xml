@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29754c1c-61c7-4402-8442-be5c390e2b53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="29754c1c-61c7-4402-8442-be5c390e2b53" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/src/Hotel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="55" selection-start-column="55" selection-end-column="55" />
+              <caret column="64" selection-start-column="64" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -71,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/src/Restaurant.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="35" selection-start-column="35" selection-end-column="35" />
+              <caret column="47" selection-start-column="47" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -120,10 +118,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Hotel.java" />
         <option value="$PROJECT_DIR$/src/Museum.java" />
         <option value="$PROJECT_DIR$/src/Church.java" />
         <option value="$PROJECT_DIR$/src/Restaurant.java" />
+        <option value="$PROJECT_DIR$/src/Hotel.java" />
       </list>
     </option>
   </component>
@@ -164,7 +162,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551727222095" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551784413701" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -180,7 +178,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="Main.Main" />
       <module name="Lab3" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -200,16 +198,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551725403419</updated>
-      <workItem from="1551725404940" duration="884000" />
+      <workItem from="1551725404940" duration="1258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="884000" />
+    <option name="totallyTimeSpent" value="1258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -297,7 +294,7 @@
     <entry file="file://$PROJECT_DIR$/src/Hotel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="55" selection-start-column="55" selection-end-column="55" />
+          <caret column="64" selection-start-column="64" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -318,7 +315,7 @@
     <entry file="file://$PROJECT_DIR$/src/Restaurant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
+          <caret column="47" selection-start-column="47" selection-end-column="47" />
         </state>
       </provider>
     </entry>
