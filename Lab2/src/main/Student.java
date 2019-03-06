@@ -20,6 +20,7 @@ public class Student {
         this.yearOfStudy = yearOfStudy;
     }
 
+    // Setters
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
@@ -51,6 +52,7 @@ public class Student {
         this.preferenceList.add(project);
     }
 
+    // Getters
     public String getID() {
         return ID;
     }
@@ -78,5 +80,34 @@ public class Student {
     @Override
     public String toString() {
         return this.ID;
+    }
+    
+    @Override
+    public boolean equals (Object o) {
+    	
+    	// if the object is compared with itself
+    	if(o == this)
+    		return true;
+    	// null o
+    	if(o == null)
+    		return false;
+    	// if the object is not an instance of Student
+    	if(o == null || o.getClass() != this.getClass())
+    		return false;
+    	// cast the object o to Student s
+		Student s = (Student) o;
+		
+    	// compare data members
+		// TO DO add preferences condition
+		if (s.ID==ID && s.yearOfStudy==yearOfStudy && s.firstName.equals(firstName) && s.lastName.contentEquals(lastName) )
+			
+			return true;
+		
+		return false;
+    }
+    
+    @Override
+    public int hashCode() {
+    	return Integer.parseInt(this.ID);
     }
 }

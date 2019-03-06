@@ -1,3 +1,7 @@
+/**
+ * @author Cristian and Cristina
+ */
+
 package main;
 
 import Matching.Matching;
@@ -16,11 +20,22 @@ public class Main {
 
     public static void main(String[] args) throws ParseException{
 
-        Student s1 = new Student("S1", 2);
+    	
+    	Student s1 = new Student("S1", 2);
         Student s2 = new Student("S2", 1);
-        Student s3 = new Student("S3",2);
+        Student s3 = new Student("S3", 2);
         Student s4 = new Student("S4", 2);
-
+        
+        // adding the same student
+    	Student s5 = new Student("S1", 2);
+        
+        if(s1.equals(s5))
+        {
+        	System.out.println("There are two students with equal properties ");
+        	System.exit(0);
+        }
+        	
+        
         Application a1 = new Application("A1", LocalDate.of(2019, Month.JUNE, 1), Language.JAVA);
         Application a2 = new Application("A2", LocalDate.parse("2019-06-01"), Language.PHP);
         Application a3 = new Application("A3", LocalDate.parse("2019-06-02"), Language.PYTHON);

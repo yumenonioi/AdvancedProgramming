@@ -7,7 +7,7 @@ import java.time.LocalDate;
 public class Application extends Project {
     public Language language;
 
-    //constructor
+    // constructor
     public Application(String name, LocalDate deadline, Language language) {
         this.name = name;
         this.deadline = deadline;
@@ -46,7 +46,7 @@ public class Application extends Project {
         this.language = language;
     }
 
-    //toString
+    // toString
 
     @Override
     public String toString() {
