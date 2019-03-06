@@ -2,22 +2,22 @@ package Locations;
 
 public abstract class Node {
     private String name = new String();
-    private String adress = new String();
+    private String address = new String();
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public void setAdress(String adress) {
-        this.adress = adress;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public String getName() {
         return name;
     }
 
-    public String getAdress() {
-        return adress;
+    public String getAddress() {
+        return address;
     }
 
     @Override

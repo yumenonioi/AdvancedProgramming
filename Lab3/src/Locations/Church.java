@@ -28,8 +28,8 @@ public class Church extends Node implements Visitable, Classifiable {
     }
 
     @Override
-    public void setAdress(String adress) {
-        super.setAdress(adress);
+    public void setAddress(String address) {
+        super.setAddress(address);
     }
 
     @Override
@@ -48,7 +48,7 @@ public class Church extends Node implements Visitable, Classifiable {
     }
 
     @Override
-    public String getAdress() {
-        return super.getAdress();
+    public String getAddress() {
+        return super.getAddress();
     }
 }
