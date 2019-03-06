@@ -4,6 +4,8 @@ import interfaces.Classifiable;
 
 public class Hotel extends Node implements Classifiable {
 
+    String rank = new String();
+
     public Hotel(String name){
         super.setName(name);
     }
@@ -13,10 +15,10 @@ public class Hotel extends Node implements Classifiable {
         super.setName(name);
     }
 
-//    @Override
-//    public void setRank(String rank){
-//        this.rank = rank;
-//    }
+    @Override
+    public void setRank(String rank){
+        this.rank = rank;
+    }
 
     @Override
     public void setAdress(String adress) {
@@ -28,10 +30,10 @@ public class Hotel extends Node implements Classifiable {
         return super.getName();
     }
 
-//    @Override
-//    public String getRank(){
-//        return super.getRank();
-//    }
+    @Override
+    public String getRank(){
+        return super.getRank();
+    }
 
     @Override
     public String getAdress() {

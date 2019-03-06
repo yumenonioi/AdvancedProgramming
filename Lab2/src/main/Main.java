@@ -25,7 +25,7 @@ public class Main {
         
         // adding the same student
     	Student s5 = new Student("S1", 2);
-        
+
         if(s1.equals(s5))
         {
         	System.out.println("There are two students with equal properties ");
