@@ -3,7 +3,7 @@ package projects;
 import enums.Topic;
 
 import java.time.LocalDate;
-
+/** @author Cristian and Cristina */
 public class Essay extends Project {
     public Topic topic;
 
@@ -46,7 +46,7 @@ public class Essay extends Project {
         this.topic = topic;
     }
 
-    //toString
+    /** Overridden toString()*/
 
     @Override
     public String toString() {

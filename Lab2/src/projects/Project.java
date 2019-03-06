@@ -2,6 +2,9 @@ package projects;
 
 import java.time.LocalDate;
 
+/**
+ * @author Cristian and Cristina
+ * Abstract class for Application and Essay*/
 public abstract class Project {
     protected String name = new String();
     protected LocalDate deadline;

@@ -3,11 +3,11 @@ package projects;
 import enums.Language;
 
 import java.time.LocalDate;
-
+/** @author Cristian and Cristina */
 public class Application extends Project {
     public Language language;
 
-    // constructor
+    /** The constructor for an Application object */
     public Application(String name, LocalDate deadline, Language language) {
         this.name = name;
         this.deadline = deadline;
@@ -46,7 +46,7 @@ public class Application extends Project {
         this.language = language;
     }
 
-    // toString
+    /** Overridden toString */
 
     @Override
     public String toString() {

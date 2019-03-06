@@ -8,6 +8,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * @author Cristian and Cristina
+ * <p>This class implements the matching algorithm for allocating students to projects
+ */
 public class Matching {
 
     public void Match(Problem problem) {

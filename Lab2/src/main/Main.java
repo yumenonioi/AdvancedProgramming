@@ -1,7 +1,3 @@
-/**
- * @author Cristian and Cristina
- */
-
 package main;
 
 import Matching.Matching;
@@ -16,6 +12,7 @@ import java.time.LocalDate;
 import java.util.*;
 import java.time.Month;
 
+/** @author Cristian and Cristina */
 public class Main {
 
     public static void main(String[] args) throws ParseException{

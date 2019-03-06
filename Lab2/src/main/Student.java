@@ -6,6 +6,7 @@ import projects.Project;
 import java.util.ArrayList;
 import java.util.List;
 
+/** @author Cristian and Cristina */
 public class Student {
     private String ID;
     private int yearOfStudy;
@@ -82,6 +83,7 @@ public class Student {
         return this.ID;
     }
     
+    /** */
     @Override
     public boolean equals (Object o) {
     	
@@ -106,6 +108,7 @@ public class Student {
 		return false;
     }
     
+    /** We will use the Student.ID as hashCode*/
     @Override
     public int hashCode() {
     	return Integer.parseInt(this.ID);
