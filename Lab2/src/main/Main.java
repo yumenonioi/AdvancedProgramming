@@ -24,13 +24,13 @@ public class Main {
         Student s4 = new Student("S4", 2);
         
         // adding the same student
-    	Student s5 = new Student("S1", 2);
-
-        if(s1.equals(s5))
-        {
-        	System.out.println("There are two students with equal properties ");
-        	System.exit(0);
-        }
+//    	Student s5 = new Student("S1", 2);
+//
+//        if(s1.equals(s5))
+//        {
+//        	System.out.println("There are two students with equal properties ");
+//        	System.exit(0);
+//        }
         	
         
         Application a1 = new Application("A1", LocalDate.of(2019, Month.JUNE, 1), Language.JAVA);
