@@ -32,7 +32,7 @@ public class Hotel extends Node implements Classifiable {
 
     @Override
     public String getRank(){
-        return super.getRank();
+        return rank;
     }
 
     @Override

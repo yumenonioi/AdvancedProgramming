@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cf19be0-9604-4ec6-aa21-668d3d9ec1b2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/Matching/Matching.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2/Matching/Matching.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/Matching/OrderingProjects.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2/Matching/OrderingProjects.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/Matching/OrderingStudents.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2/Matching/OrderingStudents.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/enums/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2/enums/Language.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/enums/Topic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2/enums/Topic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/main/Problem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2/main/Problem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/main/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2/main/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/projects/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2/projects/Project.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab3/src/Locations/Church.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/Locations/Church.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab3/src/Locations/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/Locations/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/src/Locations/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/Locations/Restaurant.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

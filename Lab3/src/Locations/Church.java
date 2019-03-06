@@ -44,7 +44,7 @@ public class Church extends Node implements Visitable, Classifiable {
 
     @Override
     public String getRank(){
-        return super.getRank();
+        return rank;
     }
 
     @Override
