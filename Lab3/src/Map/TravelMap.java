@@ -16,69 +16,14 @@ public class TravelMap {
 
     public void addEdge(Node node1, Node node2, int cost) {
         Edge auxEdge = new Edge(node1, node2, cost);
-        boolean isValid = false;
-
-        if (edges.isEmpty()) {
-            this.edges.add(auxEdge);
-        } else {
-            for (Edge edge : edges) {
-                if (auxEdge.equals(edge)) {
-                    System.out.println("Edge already exists.");
-                    System.out.println(auxEdge);
-                    break;
-                } else {
-                    isValid = true;
-                    break;
-                }
-            }
-        }
-
-        if (!(nodes.contains(node1))) {
-            System.out.println("First node is not part of the map.");
-            isValid = false;
-        }
-        if (!(nodes.contains(node2))) {
-            System.out.println("Second node is not part of the map.");
-            isValid = false;
-        }
-
-        if (isValid)
+        if(isEdgeAvailable(auxEdge, node1, node2))
             edges.add(auxEdge);
     }
 
     public void addEdge(Node node1, Node node2, int cost, boolean bidirectional) {
         Edge auxEdge = new Edge(node1, node2, cost, bidirectional);
-        boolean isValid = true;
 
-        if (edges.isEmpty()) {
-            this.edges.add(auxEdge);
-        } else {
-            for (Edge edge : edges) {
-                if (auxEdge.getBidirectional() == false) {
-                    if (edge.getBidirectional() == false) {
-                        if (auxEdge.equals(edge)) {
-                            System.out.println("Edge already exists.");
-                            System.out.println(auxEdge);
-                            break;
-                        } else {
-                            isValid = true;
-                            break;
-                        }
-                    }
-                }
-            }
-        }
-
-        if (!(nodes.contains(node1))) {
-            System.out.println("First node is not part of the map.");
-            isValid = false;
-        }
-        if (!(nodes.contains(node2))) {
-            System.out.println("Second node is not part of the map.");
-            isValid = false;
-        }
-
-        if (isValid)
+        if(isEdgeAvailable(auxEdge, node1, node2))
             edges.add(auxEdge);
     }
 
@@ -96,4 +41,57 @@ public class TravelMap {
     public List<Node> getNodes() {
         return nodes;
     }
+
+    public boolean isEdgeAvailable(Edge addingEdge, Node node1, Node node2){
+        boolean isValid = false;
+
+        if (edges.isEmpty()) {
+            this.edges.add(addingEdge);
+        } else {
+            for (Edge edge : edges) {
+                        if (edge.equals(addingEdge, addingEdge.getBidirectional())) {
+                            System.out.println("Edge already exists.");
+                            System.out.println(addingEdge);
+                            break;
+                        } else {
+                            isValid = true;
+                        }
+                    }
+                }
+
+        if (!(nodes.contains(node1))) {
+            System.out.println("First node is not part of the map.");
+            isValid = false;
+        }
+        if (!(nodes.contains(node2))) {
+            System.out.println("Second node is not part of the map.");
+            isValid = false;
+        }
+
+        return isValid;
+    }
+
+    @Override
+    public String toString() {
+        return edges.toString();
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

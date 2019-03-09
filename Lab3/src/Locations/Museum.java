@@ -5,10 +5,12 @@ import interfaces.Visitable;
 
 public class Museum extends Node implements Payable, Visitable {
 	int entryFee;
-	String openingHour = new String;
+	String openingHour = new String();
+	String closingHour = new String();
 	
 	public Museum(String name) {
 		super.setName(name);
+		Visitable.super.defaultScheduel();
 	}
 	
 	@Override
@@ -17,7 +19,7 @@ public class Museum extends Node implements Payable, Visitable {
 	}
 	
 	@Override
-	public void getName() {
+	public String  getName() {
 		return this.getName();
 	}
 	
@@ -27,7 +29,7 @@ public class Museum extends Node implements Payable, Visitable {
 	}
 	
 	@Override
-	public void getEntryFee() {
+	public int getEntryFee() {
 		return this.entryFee;
 	}
 	
@@ -37,17 +39,26 @@ public class Museum extends Node implements Payable, Visitable {
 	}
 	
 	@Override
-	public void getOpeningHour() {
+	public String getOpeningHour() {
 		return this.openingHour;
 	}
-	
+
+	@Override
+	public void setClosingHour(String closingHour) {
+		this.closingHour = closingHour;
+	}
+
+	public String getClosingHour() {
+		return closingHour;
+	}
+
 	@Override
 	public void setAddress(String address) {
 		super.setAddress(address);
 	}
 	
 	@Override
-	public void getAddress() {
+	public String getAddress() {
 		return super.getAddress();
 	}
 }

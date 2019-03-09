@@ -70,28 +70,25 @@ public class Edge {
     }
 
 
-    public boolean equals(Edge o) {
+    public boolean equals(Edge o, boolean isBidirectional) {
 
         if (o == null)
             return false;
         if (o == this)
             return true;
 
-        Edge compare = o;
-
-
-        if (this.isBidirectional == true) {
-            if (compare.node1 == this.node1) {
-                if (compare.node2 == this.node2)
+        if (isBidirectional == true) {
+            if (o.node1 == this.node1) {
+                if (o.node2 == this.node2)
                         return true;
             } else {
-                if (compare.node1 == this.node2)
-                    if (compare.node2 == this.node1)
+                if (o.node1 == this.node2)
+                    if (o.node2 == this.node1)
                             return true;
             }
         } else {
-            if (compare.node1 == this.node1) {
-                if (compare.node2 == this.node2) {
+            if (o.node1 == this.node1) {
+                if (o.node2 == this.node2) {
                     return true;
                 }
             }

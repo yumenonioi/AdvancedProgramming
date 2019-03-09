@@ -1,20 +1,29 @@
 package Main;
 
-import Locations.Church;
-import Locations.Edge;
-import Locations.Hotel;
-import Locations.Restaurant;
+import Locations.*;
 import Map.TravelMap;
+import interfaces.Payable;
+import interfaces.Visitable;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
+        List<Node> locations = new ArrayList<>();
+
         Hotel v1 = new Hotel("California");
-        Church v2 = new Church("St. Peter");
-        Church v3 = new Church("St. Mary");
-        Church v4 = new Church("St. X");
-        Restaurant v5 = new Restaurant("Vidiv");
+        Museum v2 = new Museum("Luvru");
+        Museum v3 = new Museum("Prado");
+        Church v4 = new Church("St. Mary");
+        Church v5 = new Church("St. Peter");
         Restaurant v6 = new Restaurant("Hall");
+
+        locations.addAll(Arrays.asList(v1, v2, v3, v4, v5, v6));
 
         TravelMap map = new TravelMap();
         map.addNode(v1);
@@ -23,6 +32,10 @@ public class Main {
         map.addNode(v4);
         map.addNode(v5);
         map.addNode(v6);
+
+        // Add ticket prices
+        v2.setEntryFee(9);
+        v3.setEntryFee(4);
 
         map.addEdge(v1, v2, 15);
         map.addEdge(v1, v3, 10);
@@ -35,6 +48,24 @@ public class Main {
         map.addEdge(v2, v6, 10);
 
         System.out.println("The map is: \n" + map.getMap());
+
+        System.out.println("\n" + map.toString());
+
+        v4.setOpeningHour("08:00");
+        System.out.println(Visitable.getVisitinDuration(v3));
+
+        locations.stream()
+                .filter(l -> l instanceof Visitable)
+                .filter(l -> !(l instanceof Payable))
+                .sorted((l1, l2) -> ((Visitable) l1).getOpeningHour().compareTo(((Visitable) l2).getOpeningHour()))
+                .forEach(s -> System.out.println(s.getName()));
+
+        System.out.println(locations.stream()
+                .filter(l -> l instanceof Payable)
+                .mapToDouble(l -> ((Payable) l).getEntryFee())
+                .average()
+                .orElse(Double.NaN)
+        );
 
     }
 

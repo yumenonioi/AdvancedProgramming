@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cf19be0-9604-4ec6-aa21-668d3d9ec1b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lab3/out/production/Lab3/interfaces/Visitable$Duration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/src/interfaces/Classifiable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/interfaces/Classifiable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/src/interfaces/Payable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/interfaces/Payable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/out/production/Lab3/Locations/Church.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/out/production/Lab3/Locations/Church.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/out/production/Lab3/Locations/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/out/production/Lab3/Locations/Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/out/production/Lab3/Locations/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/out/production/Lab3/Locations/Hotel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/out/production/Lab3/Locations/Museum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/out/production/Lab3/Locations/Museum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/out/production/Lab3/Locations/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/out/production/Lab3/Locations/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/out/production/Lab3/Locations/Restaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/out/production/Lab3/Locations/Restaurant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/out/production/Lab3/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/out/production/Lab3/Main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/out/production/Lab3/Map/TravelMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/out/production/Lab3/Map/TravelMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/out/production/Lab3/interfaces/Classifiable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/out/production/Lab3/interfaces/Classifiable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/out/production/Lab3/interfaces/Payable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/out/production/Lab3/interfaces/Payable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/out/production/Lab3/interfaces/Visitable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/out/production/Lab3/interfaces/Visitable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/src/Locations/Church.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/Locations/Church.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/src/Locations/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/Locations/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/src/Locations/Museum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/Locations/Museum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/src/Map/TravelMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/Map/TravelMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab3/src/interfaces/Visitable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/interfaces/Visitable.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-510">
-              <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="32" selection-end-column="11" />
+            <state relative-caret-position="251">
+              <caret line="40" column="66" lean-forward="true" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+            <state relative-caret-position="180">
+              <caret line="16" column="39" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1913#1914#0" expanded="true" />
@@ -47,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Problem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+            <state relative-caret-position="285">
+              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Matching/Matching.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="56" column="46" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
+            <state relative-caret-position="360">
+              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,12 +88,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Matching/OrderingProjects.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="90">
+              <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#183#184#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,12 +100,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Matching/OrderingStudents.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="285">
               <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,13 +112,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/projects/Project.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+            <state relative-caret-position="360">
+              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/projects/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
               <folding>
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
-                <element signature="e#733#734#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,7 +133,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/enums/Language.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="105">
               <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
             </state>
           </provider>
@@ -184,7 +200,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -208,19 +223,26 @@
               <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lab2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Matching" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="projects" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551725150282" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -270,18 +292,19 @@
       <workItem from="1551544933754" duration="818000" />
       <workItem from="1551717977649" duration="7178000" />
       <workItem from="1551784939738" duration="2063000" />
-      <workItem from="1551887794651" duration="1987000" />
+      <workItem from="1551887794651" duration="2694000" />
+      <workItem from="1552137574227" duration="1487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46768000" />
+    <option name="totallyTimeSpent" value="48962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945712" visible="true" weight="0.27534685" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945712" visible="true" weight="0.27854857" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -290,7 +313,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5005429" side_tool="true" weight="0.25506938" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995657" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -401,27 +424,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/enums/Language.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+        <state relative-caret-position="180">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1913#1914#0" expanded="true" />
@@ -432,8 +438,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Matching/Matching.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="46" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
+        <state relative-caret-position="360">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -442,45 +448,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Matching/OrderingStudents.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="285">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/enums/Language.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Matching/OrderingProjects.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/Project.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding>
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
-          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="32" selection-end-column="11" />
+        <state relative-caret-position="90">
+          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -489,8 +475,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Problem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        <state relative-caret-position="285">
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="40" column="66" lean-forward="true" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
