@@ -10,7 +10,7 @@ public class Museum extends Node implements Payable, Visitable {
 	
 	public Museum(String name) {
 		super.setName(name);
-		Visitable.super.defaultScheduel();
+		Visitable.super.defaultSchedule();
 	}
 	
 	@Override
@@ -61,4 +61,7 @@ public class Museum extends Node implements Payable, Visitable {
 	public String getAddress() {
 		return super.getAddress();
 	}
+
+	@Override
+	public boolean isVisited (Node n) {return super.isVisited(n);}
 }

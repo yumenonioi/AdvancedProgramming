@@ -8,7 +8,7 @@ public interface Visitable {
 	String getOpeningHour();
 	String getClosingHour();
 
-	default void defaultScheduel(){
+	default void defaultSchedule(){
 		setOpeningHour("09:30");
 		setClosingHour("20:00");
 	}

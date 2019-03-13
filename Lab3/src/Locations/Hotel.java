@@ -6,6 +6,7 @@ public class Hotel extends Node implements Classifiable {
 
     String rank = new String();
 
+
     public Hotel(String name){
         super.setName(name);
     }
@@ -39,4 +40,7 @@ public class Hotel extends Node implements Classifiable {
     public String getAddress() {
         return super.getAddress();
     }
+
+    @Override
+    public boolean isVisited (Node n) {return super.isVisited(n);}
 }
