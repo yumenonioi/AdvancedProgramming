@@ -2,13 +2,13 @@ import java.util.List;
 
 public class Catalog {
     private String path;
-    private List<Graph> graphs;
+    private List<OurGraph> graphs;
 
     public void setPath(String path) {
         this.path = path;
     }
 
-    public void setGraphs(List<Graph> graphs) {
+    public void setGraphs(List<OurGraph> graphs) {
         this.graphs = graphs;
     }
 
@@ -16,7 +16,7 @@ public class Catalog {
         return path;
     }
 
-    public List<Graph> getGraphs() {
+    public List<OurGraph> getGraphs() {
         return graphs;
     }
 }

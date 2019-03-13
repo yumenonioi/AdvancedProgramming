@@ -1,14 +1,15 @@
+import java.io.IOException;
 import java.util.List;
 
-public class Graph {
+public class OurGraph {
     private String name;
     private String description;
     private String imageAddress;
     private String definition;
     private List<Node> nodes;
 
-    public Graph(String name, String definition, String imageAddress) {
-        GraphIO configuration = new GraphIO(definition, imageAddress);
+    public OurGraph(String name, String definition, String imageAddress)  throws IOException {
+        GraphIO configuration = new GraphIO(name, definition, imageAddress);
 
         this.name = name;
         this.imageAddress = this.imageAddress;
