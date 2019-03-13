@@ -17,4 +17,9 @@ public class Edge {
     public Node getNode1() {
         return node1;
     }
+
+    @Override
+    public String toString() {
+        return node1 + "->" + node2;
+    }
 }

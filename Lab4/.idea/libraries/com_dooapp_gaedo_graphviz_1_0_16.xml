@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="com.dooapp:gaedo-graphviz:1.0.16" type="repository">
+    <properties maven-id="com.dooapp:gaedo-graphviz:1.0.16" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/dooapp/gaedo-graphviz/1.0.16/gaedo-graphviz-1.0.16.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/dooapp/gaedo-definition/1.0.16/gaedo-definition-1.0.16.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
