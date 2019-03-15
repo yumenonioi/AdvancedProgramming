@@ -1,18 +1,20 @@
 import java.io.IOException;
+import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
-public class OurGraph {
+public class OurGraph implements Serializable {
     private String name;
-    private String description;
-    private String imageAddress;
+    private String description= new String();
+    private String imageAddress = new String();
     private String definition;
-    private List<Node> nodes;
+    private List<Node> nodes = new ArrayList<>();
 
     public OurGraph(String name, String definition, String imageAddress)  throws IOException {
         GraphIO configuration = new GraphIO(name, definition, imageAddress);
 
         this.name = name;
-        this.imageAddress = this.imageAddress;
+        this.imageAddress = imageAddress;
         this.definition = definition;
     }
 
@@ -54,5 +56,13 @@ public class OurGraph {
 
     public List<Node> getNodes() {
         return nodes;
+    }
+
+    @Override
+    public String toString() {
+        if(description.isEmpty())
+            return this.getName();
+        else
+            return this.getName() + ", " + this.getDescription();
     }
 }

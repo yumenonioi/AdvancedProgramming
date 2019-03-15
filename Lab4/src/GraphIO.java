@@ -4,6 +4,8 @@ import org.graphstream.graph.Graph;
 import org.graphstream.graph.implementations.SingleGraph;
 import org.graphstream.stream.file.FileSink;
 import org.graphstream.stream.file.FileSinkDOT;
+import org.graphstream.stream.file.FileSinkImages;
+import org.graphstream.ui.view.Viewer;
 
 import java.io.FileInputStream;
 import java.io.FileReader;
@@ -40,12 +42,12 @@ public class GraphIO {
     }
 
     public void generateImage(String name, String definition, String imageAddress) throws IOException {
+        FileSinkImages pic = new FileSinkImages(FileSinkImages.OutputType.png, FileSinkImages.Resolutions.VGA);
         Graph newGraph = new SingleGraph(name);
         Path myPath = Paths.get(definition);
         List<String> lines = Files.readAllLines(myPath, StandardCharsets.UTF_8);
         int edgesPointer;
 
-        lines.stream().forEach(l -> System.out.println(l));
         edgesPointer = lines.indexOf("# Edges") + 1;
         List<String> edges = new ArrayList<>(lines.subList(edgesPointer, lines.size()));
 
@@ -67,8 +69,12 @@ public class GraphIO {
             }
         }
 
-        newGraph.display();
+//        newGraph.display();
 
-        newGraph.addAttribute("ui.screenshot", imageAddress);
+        pic.setLayoutPolicy(FileSinkImages.LayoutPolicy.COMPUTED_FULLY_AT_NEW_IMAGE);
+        pic.writeAll(newGraph, imageAddress);
+
+//
+//        newGraph.addAttribute("ui.screenshot", imageAddress);
     }
 }

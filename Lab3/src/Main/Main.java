@@ -5,10 +5,8 @@ import Map.TravelMap;
 import interfaces.Payable;
 import interfaces.Visitable;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.List;
 
 public class Main {
@@ -52,7 +50,7 @@ public class Main {
         System.out.println("\n" + map.toString());
 
         v4.setOpeningHour("08:00");
-        System.out.println(Visitable.getVisitinDuration(v3));
+        System.out.println(Visitable.getVisitingDuration(v3));
 
         locations.stream()
                 .filter(l -> l instanceof Visitable)
