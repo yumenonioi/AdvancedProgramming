@@ -6,22 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7353ef83-43fa-49b9-b23b-7abda1ce7cd8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/Main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/src/interfaces/Visitable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/interfaces/Visitable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k3.png" beforeDir="false" afterPath="$PROJECT_DIR$/k3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k3.tgf" beforeDir="false" afterPath="$PROJECT_DIR$/k3.tgf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab4/Catalog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab4/Catalog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab4/GraphIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab4/GraphIO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab4/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab4/OurGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab4/OurGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Catalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Catalog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GraphIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OurGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurGraph.java" afterDir="false" />
-    </list>
+    <list default="true" id="7353ef83-43fa-49b9-b23b-7abda1ce7cd8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +96,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GraphIO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="354">
               <caret line="50" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -259,16 +244,15 @@
       <updated>1552464518489</updated>
       <workItem from="1552464522569" duration="22891000" />
       <workItem from="1552549001631" duration="13348000" />
-      <workItem from="1552639902604" duration="1816000" />
+      <workItem from="1552639902604" duration="2612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38055000" />
+    <option name="totallyTimeSpent" value="38851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -279,7 +263,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32944915" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32944915" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993644" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -398,7 +382,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GraphIO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="354">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="imports" expanded="true" />
