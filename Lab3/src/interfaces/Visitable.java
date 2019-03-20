@@ -13,7 +13,7 @@ public interface Visitable {
 		setClosingHour("20:00");
 	}
 
-	static Duration getVisitinDuration(Visitable node){
+	static Duration getVisitingDuration(Visitable node){
 		Duration location = new Duration();
 
 		location.setOpeningHour(node.getOpeningHour());

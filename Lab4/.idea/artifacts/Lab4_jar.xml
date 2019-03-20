@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Lab4:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Lab4_jar</output-path>
+    <root id="archive" name="Lab4.jar">
+      <element id="module-output" name="Lab4" />
+      <element id="extracted-dir" path="$USER_HOME$/Apps/GraphStream/gs-core-1.3/gs-core-1.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Apps/GraphStream/gs-core-1.3/gs-core-1.3-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Apps/GraphStream/gs-core-1.3/gs-core-1.3-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/dooapp/gaedo-graphviz/1.0.16/gaedo-graphviz-1.0.16.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/dooapp/gaedo-definition/1.0.16/gaedo-definition-1.0.16.jar" path-in-jar="/" />
+      <element id="library" level="application" name="graphvizapi-master" />
+    </root>
+  </artifact>
+</component>
