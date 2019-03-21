@@ -1,4 +1,4 @@
-package Graphs;
+package Model;
 
 import java.io.IOException;
 

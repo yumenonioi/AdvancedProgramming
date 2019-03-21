@@ -2,40 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="228caa3e-2771-4ea4-9f90-ed886132d1f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Catalogs/catalog1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Catalogs/catalog2.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Catalogs/fullCatalog.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab4.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Moser-spindle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Moser-spindle.tgf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bull.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bull.tgf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../butterfly.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../butterfly.tgf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../k3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../k3.tgf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/artifacts/Lab4_jar/Lab4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Lab4/Catalog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Lab4/Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Lab4/GraphIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Lab4/InvalidFileExtension.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Lab4/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Lab4/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Lab4/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Lab4/OurGraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Catalog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Catalog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Edge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/GraphIO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/InvalidFileExtension.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/OurGraph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weird.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weird.tgf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Optional/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Optional/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab5/Visual Graph Manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab5/Visual Graph Manager/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,35 +14,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Catalog.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Catalog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="84" column="69" lean-forward="true" selection-start-line="84" selection-start-column="69" selection-end-line="84" selection-end-column="69" />
+            <state relative-caret-position="289">
+              <caret line="50" column="20" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1123#1124#0" expanded="true" />
                 <element signature="e#1156#1157#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InvalidFileExtension.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="4" column="1" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -85,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GraphIO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+            <state relative-caret-position="343">
+              <caret line="51" column="46" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,25 +46,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.class">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/production/Lab4/OurGraph.class">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/production/Lab4/Main.class">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/InvalidFileExtension.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-350">
+            <state relative-caret-position="450">
+              <caret line="48" column="40" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,9 +68,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Node.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OurGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="255">
               <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -138,10 +90,11 @@
     <findStrings>
       <find>.dat</find>
       <find>Path</find>
-      <find>add</find>
-      <find>open</find>
       <find>load</find>
       <find>save</find>
+      <find>sa</find>
+      <find>open</find>
+      <find>add</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,6 +104,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/OurGraph.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -168,7 +122,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -180,36 +133,19 @@
             <path>
               <item name="Compulsory" type="b2602c69:ProjectViewProjectNode" />
               <item name="Compulsory" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Compulsory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Compulsory" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Compulsory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Compulsory" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Compulsory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Compulsory" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Optional" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -237,14 +173,18 @@
       <updated>1552669288787</updated>
       <workItem from="1552669297051" duration="8162000" />
       <workItem from="1552730660974" duration="1810000" />
+      <workItem from="1553011541992" duration="505000" />
+      <workItem from="1553012078104" duration="36000" />
+      <workItem from="1553098702128" duration="1444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9972000" />
+    <option name="totallyTimeSpent" value="11957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -280,9 +220,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Node.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Catalog.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -290,48 +227,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InvalidFileExtension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="1" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Edge.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GraphIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/Lab4/OurGraph.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/Lab4/Main.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OurGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/Node.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.class">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-350">
+        <state relative-caret-position="450">
+          <caret line="48" column="40" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -340,13 +251,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Catalog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="84" column="69" lean-forward="true" selection-start-line="84" selection-start-column="69" selection-end-line="84" selection-end-column="69" />
+        <state relative-caret-position="289">
+          <caret line="50" column="20" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1123#1124#0" expanded="true" />
             <element signature="e#1156#1157#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OurGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Edge.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GraphIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="51" column="46" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InvalidFileExtension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

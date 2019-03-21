@@ -1,11 +1,8 @@
 package Commands;
 
-import Graphs.OurGraph;
 import main.Catalog;
 
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.List;
 
 public abstract class Command implements Serializable {
 //    protected List<OurGraph> listOfGraphs = new ArrayList<>();

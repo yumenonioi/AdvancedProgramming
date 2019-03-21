@@ -1,4 +1,4 @@
-package Graphs;
+package Model;
 
 import org.graphstream.graph.Graph;
 import org.graphstream.graph.implementations.SingleGraph;
@@ -114,7 +114,7 @@ public class OurGraph implements Serializable, GraphIO{
 
     @Override
     public void getDetails(){
-        System.out.println(name + type + numberOfVertices + numberOfEdges);
+        System.out.println("Nume: " + name + "Tip: " + type + "Numar de noduri: " + numberOfVertices + "Numar de muchii: " + numberOfEdges);
     }
 
     @Override

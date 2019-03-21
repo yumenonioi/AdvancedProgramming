@@ -1,6 +1,6 @@
 package Commands;
 
-import Graphs.OurGraph;
+import Model.OurGraph;
 import main.Catalog;
 
 import javax.imageio.ImageIO;

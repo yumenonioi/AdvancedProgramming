@@ -1,6 +1,6 @@
 package GUI;
 
-import Graphs.OurGraph;
+import Model.OurGraph;
 
 import javax.swing.*;
 import java.awt.*;
@@ -27,6 +27,8 @@ public class GraphForm extends JPanel {
 
     JLabel numberOfEdgesLabel = new JLabel("Number of edges:");
     JSpinner numberOfEdges = new JSpinner(new SpinnerNumberModel(0, 0, 1000, 1));
+
+    Button addButton;
 
     public GraphForm(){
         init();
@@ -105,23 +107,7 @@ public class GraphForm extends JPanel {
         gbc.gridy=8;
         gbc.gridx=2;
         gbc.gridwidth = 1;
-        Button addButton = new Button("Add");
+        addButton = new Button("Add");
         add(addButton, gbc);
-
-        addButton.addActionListener(e -> {
-            try {
-                addGraph(name.getText(), (String) type.getSelectedItem(), destinationFile.getText(), imageLocation.getText(), (String) numberOfVertices.getValue(), (String) numberOfEdges.getValue());
-            } catch (IOException e1) {
-                e1.printStackTrace();
-            }
-        });
-
-        this.setVisible(true);
-    }
-
-    private OurGraph addGraph(String name, String type, String destinationFile, String imageLocation, String numberOfVertices, String numberOfEdges) throws IOException {
-        OurGraph graph = new OurGraph(name, type, destinationFile, imageLocation, numberOfVertices, numberOfEdges);
-//        frame.list.addGraph(graph);
-        return graph;
     }
 }

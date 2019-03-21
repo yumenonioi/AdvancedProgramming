@@ -45,7 +45,7 @@ public class Main {
 
             case "open":
                 System.out.println("Enter the name of the graph that you wish to open");
-                String graphName    = in.nextLine();
+                String graphName = in.nextLine();
                 catalog.open(graphName);
                 break;
 

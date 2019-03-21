@@ -1,4 +1,4 @@
-package Graphs;
+package Model;
 
 public class Edge {
     private String node1 = new String();

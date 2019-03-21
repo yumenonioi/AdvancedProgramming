@@ -1,6 +1,6 @@
 package Commands;
 
-import Graphs.OurGraph;
+import Model.OurGraph;
 import main.Catalog;
 
 import java.io.IOException;
@@ -67,19 +67,25 @@ public class AddCommand extends Command {
 
         String[] inputValues = input.split(",");
 
-        for(int i=0; i<=5; i++){
-            if(i == 0)
-                this.name = inputValues[i].substring(1, inputValues[i].length()-1);
-            if(i == 1)
-                this.type = inputValues[i].substring(2, inputValues[i].length()-1);
-            if(i == 2)
-                this.definition = inputValues[i].substring(2, inputValues[i].length()-1);
-            if(i == 3)
-                this.imageAddress = inputValues[i].substring(2, inputValues[i].length()-1);
-            if(i == 4)
-                this.numberOfVertices = inputValues[i].substring(2, inputValues[i].length() - 1);
-            if(i == 5)
-                this.numberOfEdges = inputValues[i].substring(2, inputValues[i].length() - 1);
+        for(int i=0; i<=6; i++){
+            if(i == 0) {
+                this.name = inputValues[i];
+            }
+            if(i == 1){
+                this.type = inputValues[i];
+            }
+            if(i == 2){
+                this.definition = inputValues[i];
+            }
+            if(i == 3){
+                this.imageAddress = inputValues[i];
+            }
+            if(i == 4){
+                this.numberOfVertices = inputValues[i];
+            }
+            if(i == 5){
+                this.numberOfEdges = inputValues[i];
+            }
         }
     }
 }

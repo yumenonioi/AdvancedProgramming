@@ -1,6 +1,6 @@
 package main;
 
-import Graphs.OurGraph;
+import Model.OurGraph;
 
 import java.io.Serializable;
 import java.util.ArrayList;
