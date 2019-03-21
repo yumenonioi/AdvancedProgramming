@@ -39,4 +39,7 @@ public class Restaurant extends Node implements Classifiable {
     public String getAddress() {
         return super.getAddress();
     }
+
+    @Override
+    public boolean isVisited (Node n) {return super.isVisited(n);}
 }

@@ -3,6 +3,7 @@ package Locations;
 public abstract class Node {
     private String name = new String();
     private String address = new String();
+    private boolean visited = false;
 
     public void setName(String name) {
         this.name = name;
@@ -24,4 +25,10 @@ public abstract class Node {
     public String toString() {
         return name;
     }
+
+    public boolean isVisited(Node n){
+        return this.visited;
+    }
+
+
 }

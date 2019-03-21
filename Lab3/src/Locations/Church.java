@@ -3,17 +3,16 @@ package Locations;
 import interfaces.Classifiable;
 import interfaces.Visitable;
 
-import java.time.LocalDate;
-
 public class Church extends Node implements Visitable, Classifiable {
 
     private String openingHour = new String();
     private String closingHour = new String();
     private String rank = new String();
+    private boolean visited = false;
 
     public Church(String name){
         super.setName(name);
-        Visitable.super.defaultScheduel();
+        Visitable.super.defaultSchedule();
     }
 
     @Override
@@ -64,4 +63,7 @@ public class Church extends Node implements Visitable, Classifiable {
     public String getAddress() {
         return super.getAddress();
     }
+
+    @Override
+    public boolean isVisited (Node n) {return super.isVisited(n);}
 }
